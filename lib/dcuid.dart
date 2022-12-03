@@ -3,11 +3,11 @@
 // Licensed under MIT license
 // ...
 
-/// Dart port of a collision-resistant ids optimized for horizontal scaling
-/// and binary search lookup performance.
+/// `dcuid` is a [Dart](https://dart.dev/) implementation of js [cuid](https://github.com/paralleldrive/cuid) library.
 ///
-/// Checks the original implementation for technical details:
-/// https://github.com/paralleldrive/cuid
+/// _CUID is a Collision-resistant ids optimized for horizontal scaling and binary search lookup performance._
+///
+/// For technical details is recommended to check the original documentation where the inner details are explained.
 ///
 /// Example usage:
 ///
@@ -21,7 +21,7 @@
 ///   // slug generator
 ///   cuidSlug(); // => 9w000g7e9a
 /// ```
-library cuid;
+library dcuid;
 
 import 'src/cuid_generator.dart' show Cuid;
 
